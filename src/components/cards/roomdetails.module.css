@@ -1,0 +1,26 @@
+.table table, th, td{
+    border:1px solid black;
+    text-align: center;
+    font-size: 18px;
+}
+.btnRow{
+    margin-top: 20px;
+    margin-right: 3px;
+    display: flex;
+    justify-content: flex-end;
+}
+.btnCancel:hover{
+    background-color:#e1e1e1 !important;
+}
+.table table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.table th{
+    height: 34px;
+    background-color: var(--primary);
+}
+.table td{
+    height: 40px;
+}
+.table tr:nth-child(even) {background-color:var(--lightGray);}

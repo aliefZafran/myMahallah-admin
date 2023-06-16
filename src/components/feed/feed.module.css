@@ -1,0 +1,32 @@
+.container{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    padding-top: 4px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--gray);
+}
+
+.pfp{
+    height: 100%;
+    width: 14%;
+}
+.pfp img {
+    max-width: 100%;
+    max-height: 100%;
+    margin-top: 8px;
+}
+.content{
+    width: 84%;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.details{
+    margin-top: 8px;
+    margin-bottom: 10px;
+    position: relative;
+    top:0;
+}

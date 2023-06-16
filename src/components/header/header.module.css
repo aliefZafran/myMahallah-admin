@@ -1,0 +1,11 @@
+.container{
+    background-color: var(--primary);
+    color:white;
+    height: 74px;
+    display: flex;
+    align-items: center;
+    padding-left:12px;
+    position: fixed;
+    z-index: 10;
+    width: 100%;
+}

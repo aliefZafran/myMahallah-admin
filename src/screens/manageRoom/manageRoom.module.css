@@ -1,0 +1,9 @@
+.content{
+    position: relative;
+    left:110px;
+    top:80px;
+    width: 85vw;
+    box-sizing: border-box;
+    padding:6px 40px;
+    height: auto;
+}

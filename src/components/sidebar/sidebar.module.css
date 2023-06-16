@@ -1,0 +1,45 @@
+.sideContainer {
+  width: 200px;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: var(--gray);
+  position: fixed;
+  top: 74px;
+  left: 0;
+  padding: 12px;
+  z-index: 5;
+}
+.sideContainer ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.sideContainer ul li {
+  margin-bottom: 12px;
+  padding:8px;
+  font-family:'IBM Plex Sans', sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.link{
+  text-decoration: none;
+}
+
+.link:hover{
+  color: var(--primary);
+}
+
+.activeLink{
+  color: var(--primary) !important;
+  font-weight: 800;
+}
+
+.bottomMenu{
+    position: relative;
+    bottom:120px;
+}

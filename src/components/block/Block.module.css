@@ -1,0 +1,15 @@
+.block{
+    position: relative;
+    width: 100%;
+    padding-top:12px;
+    padding-bottom:12px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+
+}
+
+.text{
+    margin: 5px 20px;
+}

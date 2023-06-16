@@ -1,0 +1,25 @@
+.table table, th, td{
+    border:1px solid black;
+    text-align: center;
+    font-size: 18px;
+}
+.table table{
+    border-collapse: collapse;
+    width: 80%;
+}
+.table th{
+    height: 34px;
+    background-color: var(--primary);
+}
+.table td{
+    height: 40px;
+}
+.table tr:nth-child(even) {background-color:var(--lightGray);}
+
+.link{
+    text-decoration: none;
+    color:inherit;
+}
+.link:hover{
+    color:var(--primary);
+}

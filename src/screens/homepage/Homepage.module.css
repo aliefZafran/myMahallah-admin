@@ -1,0 +1,34 @@
+.content{
+    position: relative;
+    left:110px;
+    top:75px;
+    width: 85vw;
+    box-sizing: border-box;
+    padding:6px 27px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+}
+.content1{
+    position: relative;
+    margin:10px 5px;
+    box-sizing: border-box;
+    height: 85vh;
+    width: 45vw;
+
+}
+
+.content2 {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 10px 5px;
+    box-sizing: border-box;
+    height: 85vh;
+    width: 45vw;
+
+}
+
+
+

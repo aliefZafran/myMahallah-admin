@@ -1,0 +1,20 @@
+.content{
+    position: relative;
+    left:110px;
+    top:80px;
+    width: 85vw;
+    box-sizing: border-box;
+    padding:6px 40px;
+    height: auto;
+}
+.tabIndicatorAllRequests {
+    background-color: #2196f3;
+  }
+  
+  .tabIndicatorPending {
+    background-color: #ffc107;
+  }
+  
+  .tabIndicatorCompleted {
+    background-color: #4caf50;
+  }

@@ -1,0 +1,31 @@
+.content{
+    position: relative;
+    left:110px;
+    top:80px;
+    width: 85vw;
+    box-sizing: border-box;
+    padding:6px 40px;
+    height: auto;
+}
+.content h1:hover, h2:hover, h3:hover{
+    cursor: default;
+}
+.roomHeader{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.searchBar{
+    height:30px;
+    width: 240px;
+    padding:0px 12px;
+    border-radius: 50px;
+}
+.roomBtn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}

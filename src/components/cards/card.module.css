@@ -1,0 +1,31 @@
+.container{
+    width:270px;
+    height:300px;
+}
+.card{
+    width: 100%;
+}
+.card table, th, td{
+    border:1px solid black;
+    text-align: center;
+}
+.card table{
+    border-collapse: collapse;
+    width: 100%;
+}
+.card th{
+    width: 50%;
+    height: 34px;
+    background-color: var(--primary);
+}
+.card td{
+    height: 30px;
+}
+.card a, a:visited{
+    text-decoration: none;
+    color: black;
+}
+.card a:hover{
+    color: var(--primary);
+}
+.card tr:nth-child(even) {background-color:var(--lightGray);}
