@@ -1,11 +1,16 @@
 import React,{ useState, useEffect } from "react";
-import { Link, useLocation } from "react-router-dom";
+import { Link, useLocation, useNavigate } from "react-router-dom";
 import styles from "./sidebar.module.css";
 import Button from "@mui/material/Button";
 
 const Sidebar = () => {
   const location = useLocation();
   const [activePage, setActivePage] = useState(location.pathname);
+  const nav = useNavigate();
+
+  const handleLogout = () => {
+    nav('/', {replace: true});
+  }
 
   useEffect(() => {
     setActivePage(location.pathname);
@@ -16,7 +21,7 @@ const Sidebar = () => {
       <div className={styles.menu}>
         <ul>
           <li>
-            <Link to="/"  className={`${styles.link} ${activePage === "/" ? styles.activeLink : ""}`}>
+            <Link to="/homepage"  className={`${styles.link} ${activePage === "/homepage" ? styles.activeLink : ""}`}>
               Homepage
             </Link>
           </li>
@@ -40,8 +45,8 @@ const Sidebar = () => {
             <Link to="/settings" className={`${styles.link} ${activePage === "/settings" ? styles.activeLink : ""}`}>Settings</Link>
           </li>
         </ul>
-          <Button variant="contained" color="error" size="small" style={{marginLeft:'4px'}}>
-            <Link to='/login' style={{textDecoration:'none', color:'white'}} >Logout</Link>
+          <Button variant="contained" color="error" size="small" style={{marginLeft:'4px'}} onClick={handleLogout}>
+            Logout
           </Button>
       </div>
     </div>

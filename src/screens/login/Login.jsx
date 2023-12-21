@@ -10,6 +10,8 @@ const Login = () => {
   const nav = useNavigate()
 
   const handleLogin = async () => {
+    // make a call to authn authz service
+
     try {
       // Fetch the user's data from Firestore
       const usersRef = collection(db, "users");
@@ -27,7 +29,7 @@ const Login = () => {
 
       if (user.role === "admin") {
         // User has admin role, proceed with login
-        nav('/')
+        nav('/homepage')
         // Add your logic to navigate to the desired page
       } else {
         // User does not have admin role

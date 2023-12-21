@@ -22,7 +22,7 @@ const RoomCard = ({ level, block }) => {
               db,
               "uthman",
               'A',
-              `lvl1`,
+              `lvl${level}`,
               roomNo,
               "compartment",
               comp
